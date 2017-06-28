@@ -1,11 +1,9 @@
-#ifndef MYLABEL_H
-#define MYLABEL_H
+#pragma once
 
+#include <QtCore/qglobal.h>
 #include <QWidget>
 
-#include "analogclockl_global.h"
-
-class ANALOGCLOCKSHARED_EXPORT AnalogClock : public QWidget
+class Q_DECL_EXPORT AnalogClock : public QWidget
 {
     Q_OBJECT
 
@@ -15,4 +13,3 @@ protected:
     virtual void paintEvent (QPaintEvent *event) ;
 };
 
-#endif // MYLABEL_H

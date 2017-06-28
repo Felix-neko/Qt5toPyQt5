@@ -15,7 +15,6 @@ unix {
 }
 
 HEADERS += \
-    analogclockl_global.h \
     analogclock.h
 
 SOURCES += \
